@@ -1,77 +1,52 @@
 <html>
 <head>
     <title>Tema 2 - Mozzarella</title>
-    <style>
-        body {
-            background-image: url("B.jpg");
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            
-            /* Resetăm marginile și centrăm textul */
-            margin: 0;
-            padding: 40px 20px;
-            font-family: sans-serif;
-            text-align: center;
-            
-            /* Facem ca tot conținutul să stea pe mijloc pe desktop */
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        /* Facem un strat de protecție ca să se poată citi textul, dar fără chenar fix */
-        h1, p, table {
-            background-color: rgba(255, 255, 255, 0.7); /* Alb foarte transparent */
-            padding: 10px 20px;
-            border-radius: 10px;
-            max-width: 800px;
-        }
-
-        img {
-            border-radius: 15px;
-            margin: 20px 0;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-        }
-
-        table {
-            border-collapse: separate;
-            border-spacing: 20px;
-        }
-    </style>
 </head>
-<body>
+<body background="B.jpg" style="background-size: cover; background-attachment: fixed; text-align: center; font-family: Arial;">
 
-    <h1 style="color: #449DD0;">MOZZARELLA GALBANI</h1>
+    <br><br>
     
-    <h2 style="color:009D94"><i>"Savoarea Italiei în farfuria ta!"</i></h2>
+    <h1 style="background-color: white; color: #449DD0; display: inline-block; padding: 10px;">
+        MOZZARELLA GALBANI
+    </h1>
 
-    <img src="mozzarella.jpeg" width="400" border="2" alt="Mozzarella">
+    <p style="background-color: white; display: inline-block; padding: 5px;">
+        <i>"Savoarea Italiei în farfuria ta!"</i>
+    </p>
 
-    <p>Produsă după o rețetă tradițională, mozzarella noastră este fină, cremoasă și perfectă pentru pizza, salate sau gustări rapide. 100% lapte proaspăt, fără conservanți.</p>
+    <br>
+    <img src="mozzarella.jpeg" width="350" border="3" vspace="20">
+
+    <br>
+    <p style="background-color: white; padding: 10px; width: 80%; margin: auto;">
+        Produsă după o rețetă tradițională, mozzarella noastră este fină, cremoasă și perfectă pentru pizza, salate sau gustări rapide. 100% lapte proaspăt.
+    </p>
     
-    <p><b>Preț: 12.90 RON</b></p>
+    <p style="background-color: white; display: inline-block; padding: 5px;">
+        <b>Preț: 12.90 RON</b>
+    </p>
 
-    <hr width="60%" style="border: 1px solid #449DD0;">
+    <hr width="60%">
 
-    <p>Disponibil în:</p>
+    <p style="background-color: white; display: inline-block; padding: 5px;">Disponibil în:</p>
 
-    <table>
+    <table align="center" bgcolor="white" border="0" cellpadding="10">
         <tr>
             <td>
                 Auchan<br>
-                <img src="auchan.png" width="80" style="box-shadow: none;">
+                <img src="auchan.png" width="60">
             </td>
             <td>
                 Carrefour<br>
-                <img src="carrefour.png" width="80" style="box-shadow: none;">
+                <img src="carrefour.png" width="60">
             </td>
         </tr>
     </table>
 
     <br>
-    <p>Mai multe detalii: <a href="https://www.galbani.ro" target="_blank" style="color: #0056b3;">Site Producător</a></p>
+    <p style="background-color: white; display: inline-block; padding: 5px;">
+        Mai multe detalii: <a href="https://www.galbani.ro">Site Producător</a>
+    </p>
 
 </body>
 </html>
