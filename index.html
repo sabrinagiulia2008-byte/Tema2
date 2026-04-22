@@ -2,55 +2,56 @@
 <head>
     <title>Tema 2 - Mozzarella</title>
     <style>
-        /* Acest bloc de stil face magia pentru Desktop */
+        /* Aceasta este "magia" care centrează totul */
         body {
             background-image: url("B.jpg");
-            background-size: cover; /* Face fundalul să ocupe tot ecranul */
+            background-size: cover;
             background-attachment: fixed;
             margin: 0;
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh; /* Îl centrează pe verticală */
+            min-height: 100vh; /* Ocupă toată înălțimea ecranului */
             font-family: sans-serif;
         }
 
-        .container {
-            background-color: rgba(255, 255, 255, 0.9); /* Fundal alb ușor transparent */
-            padding: 30px;
+        .pliant {
+            background-color: rgba(255, 255, 255, 0.9); /* Fundal alb transparent */
+            padding: 25px;
             border-radius: 15px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-            max-width: 600px; /* Limitează lățimea pe desktop */
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            max-width: 450px; /* Îl menține compact pe desktop */
             text-align: center;
             border: 2px solid #449DD0;
+            margin: 20px;
         }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <h1 style="color: #449DD0">MOZZARELLA GALBANI</h1>
+    <div class="pliant">
+        <h1 style="color: #449DD0; margin-top: 0;">MOZZARELLA GALBANI</h1>
         <p><i>"Savoarea Italiei în farfuria ta!"</i></p>
         
-        <img src="mozzarella.jpeg" width="320" height="150" border="1" alt="Mozzarella" style="border-radius: 10px; margin: 10px 0;">
+        <img src="mozzarella.jpeg" width="100%" style="max-width: 300px; border-radius: 10px;" border="1" alt="Mozzarella">
 
-        <p>Produsă după o rețetă tradițională, mozzarella noastră este fină, cremoasă și perfectă pentru pizza, salate sau gustări rapide. 100% lapte proaspăt, fără conservanți.</p>
+        <p>Produsă după o rețetă tradițională, mozzarella noastră este fină, cremoasă și perfectă pentru pizza, salate sau gustări rapide.</p>
         
         <p><b>Preț: 12.90 RON</b></p>
 
-        <hr width="60%">
+        <hr width="80%">
 
         <p>Disponibil în:</p>
 
-        <table align="center" cellspacing="10">
+        <table align="center" cellspacing="15">
             <tr>
                 <td>
-                    Auchan<br>
-                    <img src="auchan.png" width="50" height="30">
+                    <small>Auchan</small><br>
+                    <img src="auchan.png" width="60">
                 </td>
                 <td>
-                    Carrefour<br>
-                    <img src="carrefour.png" width="50" height="30">
+                    <small>Carrefour</small><br>
+                    <img src="carrefour.png" width="60">
                 </td>
             </tr>
         </table>
