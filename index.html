@@ -1,35 +1,62 @@
 <html>
 <head>
     <title>Tema 2 - Mozzarella</title>
+    <style>
+        /* Acest bloc de stil face magia pentru Desktop */
+        body {
+            background-image: url("B.jpg");
+            background-size: cover; /* Face fundalul să ocupe tot ecranul */
+            background-attachment: fixed;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Îl centrează pe verticală */
+            font-family: sans-serif;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.9); /* Fundal alb ușor transparent */
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            max-width: 600px; /* Limitează lățimea pe desktop */
+            text-align: center;
+            border: 2px solid #449DD0;
+        }
+    </style>
 </head>
-<body background="B.jpg" style="text-align:center; font-family:sans-serif;">
+<body>
 
-    <h1 style= "color: #449DD0">MOZZARELLA GALBANI</h1>
-    <p><i>"Savoarea Italiei în farfuria ta!"</i></p>
-    <img src="mozzarella.jpeg" width="300" height="200" border="2" alt="Mozzarella" vspace="20">
+    <div class="container">
+        <h1 style="color: #449DD0">MOZZARELLA GALBANI</h1>
+        <p><i>"Savoarea Italiei în farfuria ta!"</i></p>
+        
+        <img src="mozzarella.jpeg" width="320" height="150" border="1" alt="Mozzarella" style="border-radius: 10px; margin: 10px 0;">
 
-    <p>Produsă după o rețetă tradițională, mozzarella noastră este fină, cremoasă și perfectă pentru pizza, salate sau gustări rapide. 100% lapte proaspăt, fără conservanți.</p>
-    <p><b>Preț: 12.90 RON</b></p>
+        <p>Produsă după o rețetă tradițională, mozzarella noastră este fină, cremoasă și perfectă pentru pizza, salate sau gustări rapide. 100% lapte proaspăt, fără conservanți.</p>
+        
+        <p><b>Preț: 12.90 RON</b></p>
 
-    <hr width="50%">
+        <hr width="60%">
 
-    <p>Disponibil în:</p>
+        <p>Disponibil în:</p>
 
-    <table align="center">
-        <tr>
-            <td>
-                Auchan<br>
-                <img src="auchan.png" width="60" height="40" align="middle" hspace="10">
-            </td>
-            <td>
-                Carrefour<br>
-                <img src="carrefour.png" width="60" height="40" align="middle" hspace="10">
-            </td>
-        </tr>
-    </table>
+        <table align="center" cellspacing="10">
+            <tr>
+                <td>
+                    Auchan<br>
+                    <img src="auchan.png" width="50" height="30">
+                </td>
+                <td>
+                    Carrefour<br>
+                    <img src="carrefour.png" width="50" height="30">
+                </td>
+            </tr>
+        </table>
 
-    <br>
-    <p>Mai multe detalii: <a href="https://www.galbani.ro" target="_blank">Site Producător</a></p>
+        <p style="margin-top: 20px;">Mai multe detalii: <a href="https://www.galbani.ro" target="_blank">Site Producător</a></p>
+    </div>
 
 </body>
 </html>
